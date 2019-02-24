@@ -1,0 +1,55 @@
+body {
+    display: grid;
+    justify-items: center;
+}
+
+.box {
+    background-color: whitesmoke;
+    
+
+}
+
+.img {
+    background-image: url(mains/beef_and_potatoes_enchilada.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+
+}
+
+.overskrift_pris {
+    padding-top: 1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-items: center;
+}
+
+.overskrift_pris h1 {
+    font-size: 110%;
+}
+
+
+.beskrivelse {
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+
+
+button {
+    -webkit-font-smoothing: antialiased;
+    /*    background-color: #00ca8a;*/
+    background-color: #00ca8a;
+    border-radius: 3rem;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: .9rem;
+    line-height: 1rem;
+    outline: 0;
+    border: 0;
+    padding: .6rem 1.5rem;
+    text-decoration: none;
+}
