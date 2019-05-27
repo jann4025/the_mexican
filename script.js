@@ -73,9 +73,9 @@ function start() {
 
                 document.querySelector(".single").innerHTML +=
 
-                    `<div class="vis2" data-retter="${retter.id}">
-
-<img src="imgs/${retter.kategori}/${retter.billede}" alt="${retter.navn}">
+                    `<div class="vis2" data-retter="${retter.id}" style="background-image: url(imgs/${retter.kategori}/${retter.billede});
+    background-repeat: no-repeat;
+    background-size: cover;">
 
 <div class="tekst">
  <h2>${retter.navn}</h2>

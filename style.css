@@ -133,7 +133,7 @@ button:hover {
     position: fixed;
     background-color: whitesmoke;
     width: 40vw;
-    height: 50vw;
+    height: 35vw;
     max-height: 710px;
     z-index: 14;
     top: 2vw;
@@ -160,17 +160,24 @@ button:hover {
     display: none;
 }
 
-.vis2 {}
+.vis2 {
+    display: grid;
+    align-items: center;
+    width: 40vw;
+    height: 35vw;
+    color: whitesmoke;
+    line-height: 2vw;
+}
 
 .vis2 img {
     width: 100%;
-    max-width: 600px;
-    border-top-left-radius: .8rem;
-    border-top-right-radius: .8rem;
+    max-width: 400px;
+
 }
 
 .tekst {
     padding: 1vw;
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .kort {
